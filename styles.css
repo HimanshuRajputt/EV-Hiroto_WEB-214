@@ -1,0 +1,163 @@
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 9rem;
+    font-family: Arial, sans-serif;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-left span {
+    margin-right: 10px;
+    color: #7d6f39;
+}
+
+.icon-location, .icon-phone {
+    font-size: 18px;
+}
+
+.header-right a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.language-selector {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.flag {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(8, 8, 8);
+    padding: 15px 9rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar-right a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(245, 238, 238);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar-right a:hover {
+    color: #7d6f39;
+}
+
+.book-now {
+    padding: 10px 20px;
+    background-color: #7d6f39;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3.5px;
+    transition: background-color 0.3s;
+}
+
+.book-now:hover {
+    background-color: #6b5e33;
+}
+
+/* Hero section styles */
+.hero {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: rgb(14, 13, 13);
+}
+
+.hero__text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero__text h5 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #a8902d;
+
+}
+
+.hero__text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+.filter__form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 24%;
+    margin-right: 24%;
+    padding-left: 30px;
+    /* padding-top: 1px; */
+    /* padding: 15px 10px; */
+    background-color: white;
+    border-radius: 4px;
+    /* border: 2px solid black; */
+}
+button {
+    padding: 45px 25px;
+    background-color: #0c0c0c;
+    color: white;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.filter__form__item {
+    margin: 0 10px;
+}
+
+.filter__form__item p {
+    font-weight: bold;
+}
+
+.filter__form__input input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.filter__form__datepicker input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.filter__form__select select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+
+button:hover {
+    background-color: #474026;
+}
